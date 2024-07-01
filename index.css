@@ -1,0 +1,92 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100vw;
+}
+
+.section-header {
+    font-size: 1.5em;
+}
+
+.splash-card {
+    background-color: #006BC9;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    height: 30vh;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    width: 100vw;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0;
+}
+
+.card {
+    box-sizing: border-box;
+    margin: 1rem 0;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.right-card {
+    background-color: #006BC9;
+    color: white;
+}
+
+@media (min-aspect-ratio: 10/9.99) {
+    .main-heading {
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    .splash-subtitle {
+        font-size: 2rem;
+    }
+
+    .card {
+        font-size: 2rem;
+        width: 60%;
+    }
+
+    .left-card {
+
+    }
+
+    .right-card {
+        align-self: flex-end;
+        text-align: right;
+    }
+}
+
+.footer {
+    background-color: #006BC9;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    height: 10rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.light-link {
+    color: white;
+}
+
+.light-link:visited {
+    color: #DDDDDD;
+}
+
+.light-link:active {
+    color: #FFAAFF;
+}
