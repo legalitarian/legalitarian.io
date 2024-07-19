@@ -9,11 +9,11 @@ body {
     width: 100vw;
 }
 
-.section-header {
+.content-header {
     font-size: 1.5em;
 }
 
-.splash-card {
+.splash-header {
     background-color: #006BC9;
     box-sizing: border-box;
     color: white;
@@ -26,20 +26,20 @@ body {
     width: 100vw;
 }
 
-.card-container {
+.content-container {
     display: flex;
     flex-flow: column wrap;
     padding: 0;
 }
 
-.card {
+.content {
     box-sizing: border-box;
     margin: 1rem 0;
     padding: 0 2rem;
     width: 100%;
 }
 
-.right-card {
+.right-align {
     background-color: #006BC9;
     color: white;
 }
@@ -54,16 +54,12 @@ body {
         font-size: 2rem;
     }
 
-    .card {
+    .content {
         font-size: 2rem;
         width: 60%;
     }
 
-    .left-card {
-
-    }
-
-    .right-card {
+    .right-align {
         align-self: flex-end;
         text-align: right;
     }
