@@ -14,9 +14,9 @@ body {
 }
 
 .splash-header {
-    background-color: #0057A3;
+    background-color: #2499FF;
     box-sizing: border-box;
-    color: white;
+    color: black;
     display: flex;
     flex-flow: column wrap;
     height: 30vh;
@@ -40,8 +40,8 @@ body {
 }
 
 .right-align {
-    background-color: #0057A3;
-    color: white;
+    background-color: #2499FF;
+    color: black;
 }
 
 .footnote {
@@ -74,8 +74,8 @@ body {
 }
 
 .footer {
-    background-color: #0057A3;
-    color: white;
+    background-color: #2499FF;
+    color: black;
     display: flex;
     flex-flow: column wrap;
     height: 10rem;
