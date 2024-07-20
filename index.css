@@ -44,6 +44,10 @@ body {
     color: white;
 }
 
+.footnote {
+    font-size: 0.75rem;
+}
+
 @media (min-aspect-ratio: 10/9.99) {
     .main-heading {
         font-size: 4rem;
@@ -62,6 +66,10 @@ body {
     .right-align {
         align-self: flex-end;
         text-align: right;
+    }
+
+    .footnote {
+        font-size: 1.25rem;
     }
 }
 
