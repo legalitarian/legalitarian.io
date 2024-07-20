@@ -14,7 +14,7 @@ body {
 }
 
 .splash-header {
-    background-color: #006BC9;
+    background-color: #0057A3;
     box-sizing: border-box;
     color: white;
     display: flex;
@@ -40,7 +40,7 @@ body {
 }
 
 .right-align {
-    background-color: #006BC9;
+    background-color: #0057A3;
     color: white;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 .footer {
-    background-color: #006BC9;
+    background-color: #0057A3;
     color: white;
     display: flex;
     flex-flow: column wrap;
