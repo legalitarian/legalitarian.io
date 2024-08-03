@@ -22,7 +22,10 @@ body {
 }
 
 .alternate {
-    align-items: flex-end;
+    align-items: center;
+    background-color: #0057A3;
+    color: white;
+    justify-content: flex-end;
 }
 
 .content-header {
@@ -55,9 +58,16 @@ body {
     width: 100%;
 }
 
-.alternate {
-    background-color: #0057A3;
-    color: white;
+.supporting-image {
+    box-sizing: border-box;
+    height: fit-content;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.ryan-photo {
+    height: fit-content;
+    max-width: 100%;
 }
 
 .footnote {
@@ -83,6 +93,10 @@ body {
         font-size: 3rem;
     }
 
+    .content-section {
+        flex-flow: row nowrap;
+    }
+
     .content-header {
         font-size: 2.5rem;
     }
@@ -90,6 +104,10 @@ body {
     .content {
         font-size: 1.75rem;
         width: 60%;
+    }
+
+    .supporting-image {
+        max-width: 35%;
     }
 
     .alternate {
@@ -101,7 +119,29 @@ body {
     }
 
     .about-us-section {
+        display: flex;
+        flex-flow: row wrap;
         font-size: 1.5rem;
+        justify-content: space-around;
+    }
+
+    .one-third {
+        max-width: 30%;
+        width: 30%;
+    }
+
+    .two-thirds {
+        width: 63%
+    }
+
+    .ryan-photo {
+        align-self: center;
+        height: fit-content;
+    }
+
+    .to-do {
+        font-size: 1.5rem;
+        padding: 1rem;
     }
 
     .footer > h2 {
